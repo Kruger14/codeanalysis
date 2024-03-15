@@ -15,21 +15,15 @@ const Page = () => {
         let startTime, endTime, executionTime;
         let memoryUsage = 0;
 
-        // Start performance measurement
         startTime = performance.now();
 
-        // Execute the algorithm
         const result = evaluateAlgorithm(algorithm);
         console.log(result);
-
-        // End performance measurement
         endTime = performance.now();
 
-        // Calculate execution time
         executionTime = endTime - startTime;
         setExecutionTime(executionTime);
 
-        // Measure memory usage if supported by the browser
         if (performance.memory) {
             memoryUsage = performance.memory.usedJSHeapSize / 1024 / 1024;
             setMemoryUsage(memoryUsage);
@@ -39,7 +33,6 @@ const Page = () => {
     };
 
     const evaluateAlgorithm = (algorithm) => {
-        // Use eval to execute the JavaScript algorithm
         return eval(algorithm);
     };
 
