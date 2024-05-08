@@ -1,0 +1,102 @@
+#name {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+
+#info {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5), 0 0 0 .15vw transparent;
+    background-color: rgb(28, 28, 30);
+    color: white;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    box-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5), 0 0 0 .15vw transparent;
+    background-color: rgb(28, 28, 30);
+}
+
+#instruct {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+#name {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#info {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5), 0 0 0 .15vw transparent;
+    background-color: rgb(28, 28, 30);
+    color: white;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    box-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5), 0 0 0 .15vw transparent;
+    background-color: rgb(28, 28, 30);
+}
+
+#instruct {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
